@@ -5,22 +5,22 @@ cask "daptin-cli" do
   on_macos do
     on_intel do
       url "https://github.com/daptin/daptin-cli/releases/download/v#{version}/daptin-cli_#{version}_darwin_amd64.tar.gz"
-      sha256 "941572b3ccd79e9d2c4348234fa77f787f5148c4e65317b95e77e030d9c52c40"
+      sha256 "f51d6b35b4932a52a6331df77ae3b98786178ac761d8e186923bdc1412e73f52"
     end
     on_arm do
       url "https://github.com/daptin/daptin-cli/releases/download/v#{version}/daptin-cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "d77285eab043b68bbf1b52073d492292fd69108cebef61b6d4fab7c471f9111a"
+      sha256 "d095f14037e1e7649204db2dc35c63c46042e03e08bce650013e64b5e932e240"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/daptin/daptin-cli/releases/download/v#{version}/daptin-cli_#{version}_linux_amd64.tar.gz"
-      sha256 "3f89db19075eaa6438c93509991f6d9564e4fc622b1fb2c7e7daca645ddbdf88"
+      sha256 "b4bd07f3d2f8a81d15f1b14bbbee8061ded420c1cf6121dcd3ac296d44a1d518"
     end
     on_arm do
       url "https://github.com/daptin/daptin-cli/releases/download/v#{version}/daptin-cli_#{version}_linux_arm64.tar.gz"
-      sha256 "e6a1ee99402dd6d8b0d988b457cd270e8372dadc16a731cedc5dfda9058be76d"
+      sha256 "8126cf3151a2ae3e8935bf74018b0d57e41e04b872aa69111505e1cde444406d"
     end
   end
 
